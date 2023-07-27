@@ -1,0 +1,18 @@
+export default COLORS = {
+  PrimaryColor: '#26b5dc',
+  PrimaryLightColor: '#C9EEFF',
+  ComplementaryColor: '#dc4d26',
+  AnalogousColor: '#265adc',
+  TriadicColor: '#dc26b5',
+  red: 'red',
+  white: 'white',
+  brown: 'brown',
+  shadow: '#000',
+  black: 'black',
+  grey: 'grey',
+  grey81: '#CFCFCF',
+  blackShade: '#ffffffb3',
+  mediumGrey: '#555555',
+  lightGrey: '#ddd',
+  chineseSilver: '#ccc',
+};

@@ -1,0 +1,4 @@
+export default {
+  HOME_SCREEN: 'HOME_SCREEN',
+  VIDEO_SCREEN: 'VIDEO_SCREEN',
+};
