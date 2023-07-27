@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/Cousine-Regular.ttf",
+      "sha1": "f3ba9f44fc4b356f30be5514b048239af90ef2e7"
+    },
+    {
+      "path": "app/assets/fonts/Smooch-Regular.ttf",
+      "sha1": "b3089b31ee6af9c13660338e997f022afbba0bd5"
+    }
+  ]
+}
