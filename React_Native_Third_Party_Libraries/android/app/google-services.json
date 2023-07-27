@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437277336494",
+    "project_id": "simformone-4af1c",
+    "storage_bucket": "simformone-4af1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437277336494:android:480bedf1a27025c1f91e3f",
+        "android_client_info": {
+          "package_name": "com.react_native_third_party_libraries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437277336494-q2tupvn9v4jh3d54au9t1csl5ko3h7ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAub4uoR-9jd_DYtARUAH6oRwb7FK13An8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437277336494-q2tupvn9v4jh3d54au9t1csl5ko3h7ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

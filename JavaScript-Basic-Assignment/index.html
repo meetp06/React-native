@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StudentApplication</title>
+
+    </head>
+    <body>
+        <form method="POST" name="studentForm">
+            <h2>Student Application</h2>
+
+            <div class="row">
+
+                <label for="Name"><b>Name: </b></label>
+                <input type="text" id="name" name="name" placeholder="John A">
+                &nbsp;&nbsp;&nbsp;
+
+                <label for="Name"><b>City: </b></label>
+                <input type="text" id="city" name="city"
+                    placeholder="Ahmedabad"> &nbsp;&nbsp;&nbsp;
+
+                <label for="Name"><b>Fees: </b></label>
+                <input type="number" id="fees" name="fees" placeholder="$2500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" class="btn btn-light" id="add" name="add"
+                    value="Add Data" onclick="addDataIntoTable();">Add/Save</button>
+            </div><br><br>
+            <h2>Student List</h2>
+            <table border="1" cellspacing="0" id="table" class="table">
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Fees</th>
+                    <th>Action</th>
+                </tr>
+            </table><br><br>
+            <h2>Statistics</h2>
+            <h4>1. Total fees: <span id="state1"></span></h4>
+            <h4>2. Total number of students: <span id="state2"></span></h4>
+            <h4>3. Number of students whose name starts from “R”: <span
+                    id="state3"></span></h4>
+            <h4>4. City name of 4th student: <span id="state4"></span></h4>
+            <h4>5. Total fees of 3rd and 5th student: <span id="state5"></span></h4>
+            <h4>6. Number of students whose fees is in between $2000 and $3900:
+                <span id="state6"></span></h4>
+            <h4>7. Number of students whose fees is <$1000: <span id="state7"></span></h4>
+            <h4>8. Number of students whose name starts from “S” AND City name
+                starts from “Ch”: <span id="state8"></span></h4>
+            <h4>9. Number of students whose name starts from “J” OR City name
+                starts from “H”: <span id="state9"></span></h4>
+            <h4>10. Find the Min and Max fees: <span id="state10"></span></h4>
+            <script src="script.js"></script>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+ /* p.groove {border-style: groove;}  */
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ button{
+    color: black;
+    height: 27px;
+    width: 110px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    
+}
+th, td{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+ 
+input{
+    height: 20px;
+    width: 150px;
+    border-color: black;
+    border-radius:6px;
+}

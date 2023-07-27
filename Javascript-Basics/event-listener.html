@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event-Li.</title>
+    </head>
+    <body>
+        <input type="button" id="btn" class="abc" value="Click">
+        <script>
+let btn =  document.getElementById('btn');
+btn.addEventListener('click', function test(){
+                console.log("you are click the button")
+            });
+btn.addEventListener('click', test1);
+            function test1(){
+                console.log(this.getAttribute('class'));
+            }
+        </script>
+    </body>
+</html>
